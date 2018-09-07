@@ -1,0 +1,68 @@
+/************************
+ * ICONS BY FONTAWESOME *
+ ************************/
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+
+/**************
+ * CSS Helper *
+ **************/
+.center{
+	text-align: center;
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+}
+
+.right {
+	float: right;
+}
+
+.shadow {
+	box-shadow: 0px 5px 5px;
+}
+
+.text-wrap{ 
+	word-wrap: break-word;
+}
+
+.img-64px {
+	max-height: 64px;
+	max-width: 64px;
+}
+
+.w-200px {
+	width: 200px;
+}
+
+.w-max {
+	width: 100%;
+}
+
+.ul-no-style {
+	list-style: none !important;
+}
+
+/*****************
+ * Custom Design *
+ *****************/
+.navbar-item.active{
+	border-bottom: solid 2px #3273dc;
+	color: #3273dc !important;
+}
+
+.navbar{
+	box-shadow: 0px .1px 5px;
+}
+
+.main-loading{
+	padding-top: 100px;
+	font-size: 72px;
+}
+
+.login-form, .content {
+	margin: 50px;
+	padding: 1.25rem !important;
+}
