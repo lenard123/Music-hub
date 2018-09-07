@@ -3,7 +3,7 @@ import carousel from './carousel.vue';
 
 let config = {
 	icon: 'images/musichub.jpg',
-	baseurl: 'http://localhost:8000/',
+	baseurl: '//music-hub-l.herokuapp.com/public/',
 	team: [
 		{
 			image:'../images/team-maurene.jpg', 
